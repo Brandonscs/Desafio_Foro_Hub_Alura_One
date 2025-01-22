@@ -18,6 +18,7 @@ import java.net.URI;
 
 @RestController
 @RequestMapping("/topicos")
+@SecurityRequirement(name = "bearer-key")
 public class TopicoController {
 
     private final TopicoRepository topicoRepository;
