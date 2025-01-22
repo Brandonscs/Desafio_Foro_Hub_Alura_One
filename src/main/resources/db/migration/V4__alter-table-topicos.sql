@@ -1,0 +1,3 @@
+ALTER TABLE topicos
+ADD COLUMN autor BIGINT,
+ADD COLUMN curso BIGINT;
